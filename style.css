@@ -1,0 +1,50 @@
+body {
+    background: #3A2449;
+    color: #211A1E;
+}
+
+
+
+img {
+    width: 320px;
+    height: 215px;
+}
+
+.nav-header {
+    background: 372772;
+    }
+
+.nav-header a {
+    color: #FDE74C;
+}
+
+a {
+    /* color: orangered;     */
+    color: orangered;
+}
+
+.main-header {
+    color: orangered;
+  }
+
+.text-background {
+    background: #5BC0EB;
+}
+
+
+.secondary-header {
+    color:#1439b4;
+}
+
+.tertiary-header {
+    background: #3A2449;
+    color: orangered;
+    }
+
+footer {
+    background: #3A2449;
+    color: orangered;
+    }
+
+
+
