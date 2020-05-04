@@ -11,22 +11,21 @@ img {
 }
 
 .nav-header {
-    background: 372772;
-    }
+    background: #372772;
+}
 
 .nav-header a {
     color: #FDE74C;
 }
 
 a {
-    /* color: orangered;     */
     color: orangered;
 }
 
 .main-header {
     color: orangered;
     background: #5BC0EB;
-  }
+}
 
 .text-background {
     background: #5BC0EB;
@@ -34,13 +33,13 @@ a {
 
 
 .secondary-header {
-    color:#1439b4;
+    color: #1439b4;
 }
 
 .tertiary-header {
     background: #3A2449;
     color: orangered;
-    }
+}
 
 /* footer {
     background: #3A2449;
