@@ -13,33 +13,29 @@ img {
 
 .nav-header
 {
-    width: 930px;
-    /* height: 50px; */
-    background: #1439b4;
-    overflow: auto;
-    padding: 10px 30px;
-    border: 5px solid yellowgreen;
-    border-radius: 20px;
-    margin-bottom: 50px;
-
-    
-
-}
+    width: 100vw;
+    height: 80px;
+    }
  
 .nav-container {
-    background: grey;
-    margin: 20px;
-    /* width: 1200px; */
+    width: 980px;
+    height: 70px;
+    background: #1439b4;
+    padding: 10px;
+    text-align: center;
+
 }
 
 .nav-item {
     display: inline-block;
     color: #FDE74C;
-    /* border: 1px solid  #FDE74C;
-    padding: 10px 30px;
-    text-align: center; */
+    border: 5px solid  #FDE74C;
+    border-radius: 20px;
+    padding: 10px 10px;
+    /* text-align: center; */
     text-transform: uppercase;
-    
+    margin: 10px auto;
+
 }
 
 .nav-bottom {
