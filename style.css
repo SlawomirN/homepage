@@ -11,12 +11,11 @@ img {
 }
 
 
-.nav-header
-{
+.nav-header {
     width: 100vw;
     height: 80px;
-    }
- 
+}
+
 .nav-container {
     width: 980px;
     height: 70px;
@@ -29,7 +28,7 @@ img {
 .nav-item {
     display: inline-block;
     color: #FDE74C;
-    border: 5px solid  #FDE74C;
+    border: 5px dotted #FDE74C;
     border-radius: 20px;
     padding: 10px 10px;
     /* text-align: center; */
