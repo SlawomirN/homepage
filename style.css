@@ -13,16 +13,21 @@ img {
 
 .nav-header
 {
-    width: 920px;
+    width: 930px;
     /* height: 50px; */
     background: #1439b4;
     overflow: auto;
     padding: 10px 30px;
-    border: 10px solid #ffffff;
+    border: 5px solid yellowgreen;
+    border-radius: 20px;
+
+    
+
 }
  
 .nav-container {
     background: grey;
+    margin: 50px;
     /* width: 1200px; */
 }
 
