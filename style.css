@@ -1,7 +1,7 @@
 body {
     background: #3A2449;
     color: #211A1E;
-    max-width: 75vw;
+    width: 1000px;
     margin: 0, auto;
 }
 
@@ -11,23 +11,31 @@ img {
 }
 
 
+.nav-header
+{
+    width: 920px;
+    /* height: 50px; */
+    background: #1439b4;
+    overflow: auto;
+    padding: 10px 30px;
+    border: 10px solid #ffffff;
+}
+ 
+.nav-container {
+    background: grey;
+    /* width: 1200px; */
+}
+
 .nav-item {
     display: inline-block;
     color: #FDE74C;
-    border: 1px solid  #FDE74C;;
-    padding: 1rem;
-    text-align: center;
+    /* border: 1px solid  #FDE74C;
+    padding: 10px 30px;
+    text-align: center; */
     text-transform: uppercase;
-    /* width: 20vw; */
+    
 }
 
-.nav-header
-{
-    width: 100vw;
-    background: #1439b4;
-    
-    
-}
 .nav-bottom {
     color: #FDE74C;
 }
