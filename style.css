@@ -2,7 +2,7 @@ body {
     background: #3A2449;
     color: #211A1E;
     width: 1000px;
-    margin: 0, auto;
+    /* margin: 0, auto; */
 }
 
 img {
@@ -31,9 +31,9 @@ img {
     border: 5px dotted #FDE74C;
     border-radius: 20px;
     padding: 10px 10px;
-    /* text-align: center; */
     text-transform: uppercase;
-    margin: 10px auto;
+    margin: 10px;
+    box-sizing: border-box;
 
 }
 
