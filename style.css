@@ -13,27 +13,27 @@ img {
 
 .nav-header {
     width: 100vw;
-    height: 80px;
+    /* box-sizing: border-box; */
 }
 
 .nav-container {
     width: 980px;
-    height: 70px;
+    height: 100px;
     background: #1439b4;
     padding: 10px;
     text-align: center;
+    box-sizing: border-box;
 
 }
 
 .nav-item {
     display: inline-block;
     color: #FDE74C;
-    border: 5px dotted #FDE74C;
-    border-radius: 20px;
+    border: 5px solid #FDE74C;
+    /* border-radius: 20px; */
     padding: 10px 10px;
     text-transform: uppercase;
-    margin: 10px;
-    box-sizing: border-box;
+    margin: 15px 10px;
 
 }
 
