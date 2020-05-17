@@ -1,75 +1,97 @@
 body {
     background: #3A2449;
+    background-image: url(https://s17736.pcdn.co/wp-content/uploads/2019/03/jason-leung-479251-unsplash.jpg);
+    /* background-image: url(images/shiny-clouds.png); */
     color: #211A1E;
-    width: 1000px;
-    /* margin: 0, auto; */
 }
 
 img {
-    width: 320px;
-    height: 215px;
+    width: 350px;
+    height: 251px;
+    float: left;
+    margin: 5px 25px;
 }
 
-
-.nav-header {
-    width: 100vw;
-    /* box-sizing: border-box; */
+.clear {
+    clear: left;
 }
+
+.main {
+    width: 75vw;
+    /* max-width: 1000px; */
+    /* margin: 0 auto; */
+}
+
+/* .nav-header {
+    width: 1000vw;
+    height: 200px;
+} */
+
 
 .nav-container {
-    width: 980px;
-    height: 100px;
-    background: #1439b4;
-    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 25vw;
+    /* width: 200px; */
+    /* height: 100px; */
+    background: rgb(20, 57, 180, 0.5);
+    padding: 20px 0px 20px;
     text-align: center;
-    box-sizing: border-box;
-
 }
 
 .nav-item {
-    display: inline-block;
+    display: block;
     color: #FDE74C;
     border: 5px solid #FDE74C;
     /* border-radius: 20px; */
-    padding: 10px 10px;
+    padding: 10px;
     text-transform: uppercase;
     margin: 15px 10px;
 
 }
 
 .nav-bottom {
+    background: rgb(15, 43, 126, 0.5);
+    bottom: 0;
+    padding: 10px 20px 10px;
+    width: 150px;
+    height: 30px;
+    position: sticky;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-bottom a {
     color: #FDE74C;
 }
 
+
 a {
-    color: orangered;
+    color: rgb(111, 0, 255);
 }
 
 .main-header {
-    color: orangered;
+    color: rgb(253, 76, 99);
     background: #5BC0EB;
+    text-align: center;
 }
 
 .text-background {
-    background: #5BC0EB;
+    background: rgb(91, 192, 235, 0.9);
+    
 }
 
 
 .secondary-header {
     color: #1439b4;
+    background: rgb(207, 197, 177, 0.5);
+    position: sticky;
+    top: 20px;
 }
 
 .tertiary-header {
-    background: #3A2449;
-    color: orangered;
+    color: rgb(185, 88, 52);
+    color: #FDE74C;
 }
-
-/* footer {
-    background: #3A2449;
-    color: orangered;
-    } */
-
-
-/* p {
-    color: darksalmon !important;
-} */
+}

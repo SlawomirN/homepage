@@ -10,7 +10,7 @@
 
 <body>
     <header class="nav-header">
-        <nav>
+        <nav class="nav-container">
             <a class="nav-item" href="index.html">Strona główna</a>
             <a class="nav-item" href="nauka-html.html">HTML</a>
             <a class="nav-item" href="nauka-css.html">CSS</a>
@@ -18,7 +18,7 @@
             <a class="nav-item" href="nauka-js.html">JavaScript</a>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <header id="top">
             <h1 class="main-header text-background">Dziennik WTF - CSS</h1>
         </header>
@@ -41,11 +41,32 @@
             </p>
 
         </article>
-        <nav class="nav-header">
+
+        <article class="text-background">
+            <h2 class="secondary-header">Inne ważne kwestie przy stylowaniu</h2>
+            <p>
+                Zaleca się stylowanie po klasach, a nie po elementach, bo zagnieżdżenie elementów może się zmienić na dalszym etapie projektu, a wtedy nasze stylowianie może się zepsuć. Nie zaleca się stylowania po identyfikatorach, gdyż tych należy używać do nawigacji po stronie.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae beatae, quod odit rerum non corporis
+                quo facere qui quaerat optio doloremque sint velit vitae magnam mollitia consequatur. Optio recusandae
+                laborum, incidunt repellat dolorum voluptas dolorem accusantium reprehenderit, omnis eveniet alias
+                ducimus velit quibusdam possimus vel iste quod ad numquam?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae beatae, quod odit rerum non corporis
+                quo facere qui quaerat optio doloremque sint velit vitae magnam mollitia consequatur. Optio recusandae
+                laborum, incidunt repellat dolorum voluptas dolorem accusantium reprehenderit, omnis eveniet alias
+                ducimus velit quibusdam possimus vel iste quod ad numquam?
+            </p>
+
+        </article>
+
+        <nav class="nav-bottom">
             <a href="#top">Powrót do góry</a>
         </nav>
     </main>
-    <footer>
+    <footer class="tertiary-header">
         &#169; Strona domowa Sławka Nowodworskiego.
     </footer>
 </body>
