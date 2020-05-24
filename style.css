@@ -1,9 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+
+*. *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
-    background: #3A2449;
+    background: rgb(99, 92, 104);
     background-image: url(https://s17736.pcdn.co/wp-content/uploads/2019/03/jason-leung-479251-unsplash.jpg);
     /* background-image: url(images/shiny-clouds.png); */
     /* color: #211A1E; */
-    margin: 0; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
 }
 
 
@@ -12,11 +25,21 @@ body {
 }
 
 .footer {
-    color: rgb(226, 34, 76);   
+    color: rgb(226, 34, 76);
+    
+}
+
+.list {
+    list-style-type: circle;
+}
+.ordered-list {
+    list-style-type: upper-roman;
 }
 
 .main {
-    width: 75vw;
+    width: 80vw;
+    /* margin-top: 100px; */
+   
     /* margin: 0 auto; */
     /* do wypośrodkowania maina */
 }
@@ -25,13 +48,16 @@ body {
 .navigation {
     position: fixed;
     top: 0;
-    right: 0;
-    width: 25vw;
+    width: 60vw;
     background: rgba(9, 31, 104, 0.5);
     padding: 20px 0px;
     text-align: center;
-    box-sizing: border-box;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}    
+
 
 .navigation__link {
     display: block;
@@ -79,9 +105,9 @@ body {
     
 }
 
-.page-section__article {
-    /* color: #211A1E;    */
-}
+/* .page-section__article {
+    color: #211A1E;   
+} */
 
 .page-section__article--title {
     color: rgb(185, 88, 52);
@@ -104,7 +130,7 @@ body {
 .page-section__title {
     color: #1439b4;
     background: rgb(207, 197, 177, 0.5);
-    position: sticky;
-    top: 20px;
+    /* position: sticky;
+    top: 20px; */
 }
 
