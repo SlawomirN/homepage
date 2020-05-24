@@ -13,7 +13,7 @@ body {
     /* color: #211A1E; */
     margin: 0;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
    
@@ -44,18 +44,17 @@ body {
     /* do wypośrodkowania maina */
 }
 
-
-.navigation {
+.header {
     position: fixed;
     top: 0;
-    width: 60vw;
+    }
+
+.navigation {
     background: rgba(9, 31, 104, 0.5);
     padding: 20px 0px;
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    
 }    
 
 
