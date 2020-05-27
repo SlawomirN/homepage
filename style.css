@@ -38,6 +38,8 @@ body {
     width: 200px;
 }
 
+
+
 .list {
     list-style-type: circle;
 }
@@ -141,3 +143,8 @@ body {
     top: 20px; */
 }
 
+
+
+.klasa-z-js {
+    background: yellowgreen;
+}

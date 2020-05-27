@@ -72,6 +72,8 @@ const myClick = () => {
 button.addEventListener('click', (e) => {
     const header = document.querySelector('.main-header--js');
     header.innerHTML = 'Witaj w moim dzienniczku!';
+    header.classList.toggle('klasa-z-js');
+    console.log(header.classList.contains('main-header'))
 });
 
 // zamiast 'click' może być 'mouseenter' lub 'mouseleave'!!!
@@ -79,3 +81,6 @@ button.addEventListener('click', (e) => {
 //     const header = document.querySelector('.main-header--js');
 //     header.innerHTML = 'Witaj w moim dzienniczku!';
 // });
+
+// Usuwanie klasy w buttonie powyżej
+// header.classList.remove('main-header');
