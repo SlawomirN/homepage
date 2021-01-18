@@ -46,10 +46,23 @@ function createContent(querySelectorContent, content) {
 }
 createContent('.footer--js', 'Strona stwworzona w ramach kursu WTF');
 
+function calculateOld(myNumber) {
+    return myNumber*7;
+}
 const calculate = (myNumber) => myNumber * 7
-console.log(calculate(7));
+const myResult = calculateOld(4);
+console.log(myResult);
 
 console.log(console);
+
+// function calculate (myNumber) {
+//     console.log(`Dostałam ${myNumber}`);
+//     myNumber = myNumber*7;
+//     return myNumber;
+// }
+// const myResult = calculate(2);
+// console.log(myResult);
+
 
 const button = document.querySelector('.action--js');
 console.log(button);
